@@ -1,0 +1,16 @@
+name: aigifmaker
+description: "Official SDK for AI GIF Maker (aigifmaker.ai): turn text into animated GIFs."
+version: 0.1.0
+homepage: https://aigifmaker.ai/?utm_source=pub&utm_medium=package
+repository: https://github.com/hanshs474/aigifmaker-dart
+issue_tracker: https://github.com/hanshs474/aigifmaker-dart/issues
+topics: [gif, animation, ai, text-to-gif, gif-generator]
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  test: ^1.25.0
