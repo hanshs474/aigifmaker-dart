@@ -137,7 +137,7 @@ class Aigifmaker {
   final String base;
   final http.Client _client;
 
-  /// How long [generate] and [wait] keep polling (5 minutes by default).
+  /// How long [generate] and [wait] keep polling (15 minutes by default).
   Duration timeout;
 
   /// Time between status checks.
@@ -147,7 +147,7 @@ class Aigifmaker {
   Aigifmaker(
       {String? apiKey,
       String? baseUrl,
-      this.timeout = const Duration(minutes: 5),
+      this.timeout = const Duration(minutes: 15),
       this.pollEvery = const Duration(seconds: 3),
       http.Client? client})
       : apiKey = (apiKey == null || apiKey.trim().isEmpty)

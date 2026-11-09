@@ -37,7 +37,7 @@ print(await gif.credits()); // remaining credits, free to call
 ## Options
 
 ```dart
-final gif = Aigifmaker(apiKey: 'sk-...', timeout: const Duration(minutes: 5)); // 5 minutes by default
+final gif = Aigifmaker(apiKey: 'sk-...', timeout: const Duration(minutes: 15)); // 15 minutes by default
 ```
 
 ## Submit now, collect later
